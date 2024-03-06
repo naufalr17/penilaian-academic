@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const { default: LayoutInput } = require("@/components/layouts/input");
 
@@ -11,6 +12,7 @@ const auth = {
 const icon = {
   user: require("@/shared/icons/user-black.svg"),
   key: require("@/shared/icons/key-black.svg"),
+  signIn: require("@/shared/icons/door-enter-white.svg"),
 };
 
 const LayoutSignIn = () => {
@@ -35,8 +37,9 @@ const LayoutSignIn = () => {
           type="password"
           placeholder="Masukkan password"
         />
-        <button className="bg-[#292D32] text-white p-4 rounded-lg flex flex-row gap-4 items-center justify-center w-full h-auto mt-4">
+        <button className="bg-[#292D32] transition-all hover:bg-[#292D32]/80 text-white p-4 rounded-lg flex flex-row gap-4 items-center justify-center w-full h-auto mt-4">
           <p className="text-white font-medium text-sm tracking-tight">Masuk</p>
+          <Image src={icon.signIn} width="16" height="16" />
         </button>
       </form>
       <div className="flex flex-col w-full h-auto items-center gap-2 p-0 mt-8">
