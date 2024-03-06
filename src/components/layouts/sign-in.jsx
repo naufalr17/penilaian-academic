@@ -15,7 +15,7 @@ const icon = {
 
 const LayoutSignIn = () => {
   return (
-    <main className="bg-white flex flex-col w-full lg:w-[480px] h-full lg:h-[640px] p-8 lg:p-16 items-center justify-between rounded-none lg:rounded-r-lg shadow-none lg:shadow-2xl lg:shadow-[#292D32]/10">
+    <main className="bg-white flex flex-col w-full lg:w-[480px] h-full lg:h-[640px] p-8 lg:p-16 items-center justify-between rounded-none lg:rounded-r-lg">
       <div className="flex flex-col w-full h-auto items-center gap-4 p-0 mt-0">
         <h1 className="text-[#292D32] font-bold text-2xl text-center tracking-tight mt-0">
           Selamat datang di {auth.name}
