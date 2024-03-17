@@ -5,14 +5,14 @@ const StudentTable = () => {
     <table className="bg-[#FFFFFF] rounded-lg w-full lg:w-[640px] mt-8 lg:mt-16">
       <thead>
         <tr>
-          <th className="text-start font-semibold text-sm pl-4 py-4">No</th>
-          <th className="text-start font-semibold text-sm pl-0 pr-0 py-4">
+          <th className="text-[#2563EB] text-start font-semibold text-sm pl-4 py-4">No</th>
+          <th className="text-[#2563EB] text-start font-semibold text-sm pl-0 pr-0 py-4">
             Mata Pelajaran
           </th>
-          <th className="text-start font-semibold text-sm pl-0 pr-0 py-4">
+          <th className="text-[#2563EB] text-start font-semibold text-sm pl-0 pr-0 py-4">
             Nilai Angka
           </th>
-          <th className="text-start font-semibold text-sm pr-4 py-4">
+          <th className="text-[#2563EB] text-start font-semibold text-sm pr-4 py-4">
             Nilai Huruf
           </th>
         </tr>
