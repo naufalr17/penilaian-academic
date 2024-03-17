@@ -2,12 +2,12 @@ import React from "react";
 
 const StudentTable = () => {
   return (
-    <table className="w-full lg:w-[640px]">
+    <table className="bg-[#FFFFFF] rounded-lg w-full lg:w-[640px] mt-8 lg:mt-16">
       <thead>
         <tr>
-          <th>Mata Pelajaran</th>
-          <th>Nilai Angka</th>
-          <th>Nilai Huruf</th>
+          <th className="text-start">Mata Pelajaran</th>
+          <th className="text-start">Nilai Angka</th>
+          <th className="text-start">Nilai Huruf</th>
         </tr>
       </thead>
       <tbody>
