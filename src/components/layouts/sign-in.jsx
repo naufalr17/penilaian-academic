@@ -19,10 +19,10 @@ const LayoutSignIn = () => {
   return (
     <main className="bg-white flex flex-col w-full lg:w-[480px] h-full lg:h-[640px] p-8 lg:p-16 items-center justify-between rounded-none lg:rounded-r-lg">
       <div className="flex flex-col w-full h-auto items-center gap-4 p-0 mt-0">
-        <h1 className="text-[#292D32] font-bold text-2xl text-center tracking-tight mt-0">
+        <h1 className="text-[#2563EB] font-bold text-2xl text-center tracking-tight mt-0">
           Selamat datang di {auth.name}
         </h1>{" "}
-        <h2 className="text-[#292D32]/60 font-medium text-sm text-center tracking-tight mt-0">
+        <h2 className="text-[#2563EB]/60 font-medium text-sm text-center tracking-tight mt-0">
           {auth.description}
         </h2>
       </div>
@@ -37,15 +37,15 @@ const LayoutSignIn = () => {
           type="password"
           placeholder="Masukkan password"
         />
-        <button className="bg-[#292D32] transition-all hover:bg-[#292D32]/80 text-white p-4 rounded-lg flex flex-row gap-4 items-center justify-center w-full h-auto mt-4">
+        <button className="bg-[#2563EB] transition-all hover:bg-[#2563EB]/80 text-white p-4 rounded-lg flex flex-row gap-4 items-center justify-center w-full h-auto mt-4">
           <p className="text-white font-medium text-sm tracking-tight">Masuk</p>
           <Image src={icon.signIn} width="16" height="16" />
         </button>
       </form>
       <div className="flex flex-col w-full h-auto items-center gap-2 p-0 mt-8">
-        <div className="text-[#292D32]/60 font-medium text-sm text-center tracking-tight mt-0">
+        <div className="text-[#2563EB]/60 font-medium text-sm text-center tracking-tight mt-0">
           Belum memiliki akun?{" "}
-          <button className="text-[#292D32] font-bold text-sm text-center tracking-tight hover:underline">
+          <button className="text-[#2563EB] font-bold text-sm text-center tracking-tight hover:underline">
             Daftar Sekarang
           </button>
         </div>{" "}

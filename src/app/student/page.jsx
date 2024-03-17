@@ -10,7 +10,7 @@ const {
 
 const StudentDashboard = () => {
   return (
-    <div className="flex flex-col w-full h-auto p-0">
+    <div className="flex flex-col w-full h-auto items-center justify-center p-0">
       <NavigationStudent />
       <StudentTable />
     </div>
