@@ -16,9 +16,9 @@ const NavigationStudent = () => {
       </p>
       <div className="flex flex-row lg:flex-col gap-4 items-center justify-end w-full">
         <div className="bg-[#FFFFFF]/5 transition-all hover:bg-[#FFFFFF]/25 px-4 py-4 rounded-lg flex flex-col gap-4 items-start justify-center w-full h-auto mt-0">
-          <div className="group flex flex-col gap-2 items-start justify-center w-full h-auto">
+          <div className="group flex flex-row-reverse lg:flex-col gap-2 items-start justify-center w-full h-auto">
             <div className="flex flex-row gap-2 items-center justify-between w-full h-auto">
-              <p className="text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
+              <p className="hidden lg:flex text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
                 Nama Pengguna
               </p>
               <Image
@@ -28,11 +28,11 @@ const NavigationStudent = () => {
                 height="16"
               />{" "}
             </div>
-            <p className="text-[#FFFFFF] font-normal text-xs tracking-tight truncate">
+            <p className="text-[#FFFFFF] font-normal text-xs tracking-tight truncate w-full lg:w-auto">
               Muhammad Naufal R.
             </p>
           </div>
-          <div className="group flex flex-col gap-2 items-start justify-center w-full h-auto">
+          <div className="group hidden lg:flex flex-col gap-2 items-start justify-center w-full h-auto">
             <div className="flex flex-row gap-2 items-center justify-between w-full h-auto">
               <p className="text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
                 Bio
