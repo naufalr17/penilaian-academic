@@ -15,10 +15,15 @@ const NavigationStudent = () => {
         Student Page
       </p>
       <div className="flex flex-row lg:flex-col gap-4 items-center justify-end w-full">
-        <button className="bg-[#FFFFFF]/5 transition-all hover:bg-[#FFFFFF]/25 px-4 py-4 rounded-lg flex flex-row gap-4 items-center justify-start w-full h-auto mt-0">
-          <Image src={icon.accountManagement} width="16" height="16" />{" "}
-          <p className="text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
-            Nama Pengguna
+        <button className="bg-[#FFFFFF]/5 transition-all hover:bg-[#FFFFFF]/25 px-4 py-4 rounded-lg flex flex-col gap-2 items-start justify-center w-full h-auto mt-0">
+          <div className="flex flex-row gap-2 items-center w-full h-auto">
+            <Image src={icon.accountManagement} width="16" height="16" />{" "}
+            <p className="text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
+              Nama Pengguna
+            </p>
+          </div>
+          <p className="hidden lg:flex text-[#FFFFFF] font-medium text-xs tracking-tight truncate">
+            Bio
           </p>
         </button>
         <button className="bg-[#FFFFFF] transition-all hover:bg-[#FFFFFF]/80 px-4 py-4 rounded-lg flex flex-row gap-4 items-center justify-center w-auto lg:w-full h-auto mt-0">
