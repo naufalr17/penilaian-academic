@@ -17,12 +17,12 @@ const NavigationStudent = () => {
       <div className="flex flex-row lg:flex-col gap-4 items-center justify-end w-full">
         <div className="bg-[#FFFFFF]/5 transition-all hover:bg-[#FFFFFF]/25 px-4 py-4 rounded-lg flex flex-col gap-4 items-start justify-center w-full h-auto mt-0">
           <div className="group flex flex-row-reverse lg:flex-col gap-2 items-start justify-center w-full h-auto">
-            <div className="flex flex-row gap-2 items-center justify-between w-full h-auto">
+            <div className="flex flex-row gap-2 items-center justify-end lg:justify-between w-full h-auto">
               <p className="hidden lg:flex text-[#FFFFFF] font-medium text-sm tracking-tight truncate">
                 Nama Pengguna
               </p>
               <Image
-                className="group opacity-0 group-hover:opacity-100"
+                className="group opacity-100 lg:opacity-0 lg:group-hover:opacity-100"
                 src={icon.accountManagement}
                 width="16"
                 height="16"
