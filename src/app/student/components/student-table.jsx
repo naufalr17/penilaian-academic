@@ -2,7 +2,7 @@ import React from "react";
 
 const StudentTable = () => {
   return (
-    <table className="bg-[#FFFFFF] rounded-lg w-full lg:w-[640px] mt-8 lg:mt-16">
+    <table className="bg-[#FFFFFF] rounded-lg w-full lg:w-[640px] mt-0">
       <thead>
         <tr>
           <th className="text-[#2563EB] text-start font-semibold text-sm pl-4 py-4">No</th>
